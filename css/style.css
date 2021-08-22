@@ -1,0 +1,122 @@
+/* init area*/
+body {
+    margin : 0;
+}
+
+/*styling area*/
+body {
+    background-color: rgb(55, 112, 218);
+}
+
+.app {
+    display:block;
+}
+
+.header{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin: 5px 10px 0 10px;
+    
+}
+
+.timebar {
+    display: inline-block;
+    width: 300px;
+    margin : 0 auto;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;    
+    line-height: 1.8em;
+}
+
+.button {
+    background-color: white;
+    height: 62px;
+    display: inline-block;
+    font: 'arial';
+    line-height: 4.3em;
+    padding: 0 1.2em;
+    border-radius: 15px;
+    margin: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.header .button {
+    background-color: white;
+    color: skyblue;
+    border: 3px solid;
+    margin: 0;
+    height: 30px;
+    display: inline-block;
+    font: 'arial';
+    line-height: 1.6em;
+    padding: 0 0.5em;
+    border-radius: 8px;
+    font-size: 20px;
+    visibility: hidden;
+}
+
+.timeSelectBar {
+    margin-top: 10px;
+    background-color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    
+}
+
+.timeSelectBar .timeForm {
+    margin-top: 13px;
+}
+
+.timeSelectBar .save {
+    margin-top: 10px;
+    height: 30px;
+
+}
+
+.alarmOne {
+    background-color: white;
+    margin: 3px 0;
+    height: 30px;
+}
+
+.alarmOne .delete {
+    color: red;
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 2px;
+}
+
+.dragButton.dragging {
+    opacity: .3;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+    opacity: 1;
+}
+
+input[type="time"]::-webkit-inner-spin-button {
+    opacity: 1;
+}
+
+.memoOne{
+    background-color: white;
+    line-height: 1.5em;
+    height: 3em;       /* height is 2x line-height, so two lines will display */
+    overflow: hidden  /* prevents extra lines from being visible */
+}
+
+.inputForm{
+   margin-top: 10px; 
+}
+
+.inputMemo{
+    width: 100%;
+    height: 50px;
+
+}
