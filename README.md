@@ -3,7 +3,7 @@
 
 ### 실행방법
   1. git clone 또는 압축파일 다운 후 압축풀기 
-  2. smartphone-emulation 디렉터리 이동
+  2. 압축파일 다운로드 시, SmartPhone-Emulation-master 디렉터리 이동
   3. npm i -D 
   4. npm run build
   5. npm run watch
