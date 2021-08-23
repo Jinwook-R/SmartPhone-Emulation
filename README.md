@@ -2,9 +2,10 @@
 ## 스마트폰 에물레이션
 
 ### 실행방법
-  1. 클론
-  2. smartphone-emulation 디렉터리에서 npm i 입력하여 필요 패키지 설치
-  3. open index.html 입력
+  1. git clone 또는 압축파일 다운 후 압축풀기 
+  2. smartphone-emulation 디렉터리 이동
+  3. smartphone-emulation 디렉터리에서 npm i 입력하여 필요 패키지 설치
+  4. open index.html 입력
 
 ### 파일 구조
   - css : html 요소들에 대한 css 효과 적용시킵니다.
