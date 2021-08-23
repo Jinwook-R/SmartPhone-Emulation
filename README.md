@@ -23,5 +23,5 @@
   - index.html : 프로그램이 시작되는 기본 html 파일입니다.
 
 ### 참고사항
-  - build 시 css 로딩 에러 발생할 경우  Node.js 최신버전으로 업데이트 
+  - build 시 css 로딩 에러 발생할 경우  Node.js 최신버전으로 업데이트를 해야합니다.
   
