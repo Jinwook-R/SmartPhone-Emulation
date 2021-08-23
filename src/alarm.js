@@ -145,11 +145,10 @@ class Alarm {
                         
                         alarmOne.appendChild(deleteButton);
                         this.alarm.appendChild(alarmOne);
-
+                        
                         timeSelectBar.remove();
                         localStorage.setItem('alarm',this.alarm.innerHTML);
                     });
-
                 });
             }
         });
