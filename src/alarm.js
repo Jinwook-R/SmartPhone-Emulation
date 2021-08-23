@@ -139,6 +139,8 @@ class Alarm {
                             if(checkHour == hours && minute == minutes){
                                 alarmOne.remove();
                                 localStorage.setItem('alarm',this.alarm.innerHTML);
+                                const alertHours = hours >= 12 ? hours-12 : hours; 
+                                alert(`${ampm} ${alertHours}시 ${minutes}분`);
                                 clearInterval(timeChecker);
                             }
                         },1000);

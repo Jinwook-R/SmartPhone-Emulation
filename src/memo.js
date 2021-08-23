@@ -24,17 +24,23 @@ class Memo {
 
             const memoContents = document.querySelectorAll('.memoOne');
             memoContents.forEach((e) => {
-                e.addEventListener('click',(e)=>{
+                e.addEventListener('click',(e) => {
                     const otherMemoOne = document.querySelectorAll('.memoOne');
                     for(const one of otherMemoOne){
+
                         one.style.height = '3em';
                     }
-                    e.target.style.height= '100%';
+                    
+                        e.target.style.height= '100%';
+                    
+                        if(e.target.clientHeight <= 48){
+
+                            e.target.style.height = '3em';
+                        }
 
                 })
             });
         }
-        
     }
 
     render() {
@@ -54,7 +60,7 @@ class Memo {
                 });
 
             }else if(e.className === 'header button new'){
-                console.log(this.appList);
+
                 e.addEventListener('click', (e) => {
                     
                     const inputForm = document.createElement('div');
