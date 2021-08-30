@@ -1,5 +1,4 @@
-# 2021년 인턴(전환형) 검색서비스 Frontend분야 사전과제
-## 스마트폰 에물레이션
+## Smartphone Emulation
 
 ### 실행방법
   1. git clone 또는 압축파일 다운 후 압축풀기 
